@@ -7,7 +7,7 @@
 ### ⭐️ Backend
 ![Java](https://img.shields.io/badge/Java-%23f89820.svg?style=for-the-badge&logo=java&logoColor=white) ![Spring](https://img.shields.io/badge/Spring-%236db33f.svg?style=for-the-badge&logo=spring&logoColor=white) ![Gradle](https://img.shields.io/badge/gradle-%2302303A.svg?style=for-the-badge&logo=gradle&logoColor=white) ![Junit5](https://img.shields.io/badge/junit5-%23ba3925.svg?style=for-the-badge&logo=junit5&logoColor=white)
 <br/>
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)  ![Jest](https://img.shields.io/badge/jest-%23907F7F.svg?style=for-the-badge&logo=jest&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![npm](https://img.shields.io/badge/npm-%23333333.svg?style=for-the-badge&logo=npm&logoColor=white) ![Jest](https://img.shields.io/badge/jest-%23907F7F.svg?style=for-the-badge&logo=jest&logoColor=white)
 <br/>
 ![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23ff9900.svg?style=for-the-badge&logo=amazon&logoColor=white) ![TRAVIS](https://img.shields.io/badge/Travis-%233eaaaf.svg?style=for-the-badge&logo=travis&logoColor=white)
 
