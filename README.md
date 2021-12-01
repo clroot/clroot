@@ -2,8 +2,6 @@
 - SoongSil Univ., Seoul, Korea (School of Software)
 - contact : abcdkh1209@gmail.com
 - blog : https://clroot.io
-
----
   
 ## 🛠 Tech Stack 🛠 
 ### ⭐️ Backend
@@ -21,11 +19,7 @@
 ### ⭐️ Others
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
----
-
 [![clroot’s GitHub stats](https://github-readme-stats.vercel.app/api?username=clroot&theme=slateorange)](https://github.com/anuraghazra/github-readme-stats)
-
----
 
 <div align=“right”>
   
