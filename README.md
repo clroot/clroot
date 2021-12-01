@@ -22,10 +22,8 @@
 ### ⭐️ Others
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
+---
+
 [![clroot’s GitHub stats](https://github-readme-stats.vercel.app/api?username=clroot&theme=slateorange)](https://github.com/anuraghazra/github-readme-stats)
 
-<div align=“right”>
-  
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fclroot&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
- 
-</div>
