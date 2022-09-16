@@ -1,6 +1,6 @@
 ## 👨🏽‍💻 About me
 - SoongSil Univ., Seoul, Korea (School of Software)
-- contact : abcdkh1209@gmail.com
+- contact : geonhwan.cha@clroot.io
 - blog : https://clroot.io
   
 ## 🛠 Tech Stack 🛠 
