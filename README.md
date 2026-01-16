@@ -57,7 +57,6 @@ Spring Data JPA 스타일을 Hibernate Reactive + Kotlin Coroutines 환경에서
 - **PartTree 기반 동적 쿼리 생성**: Spring Data 메서드 네이밍 규칙 호환
 - **Spring Transaction 통합**: Propagation, Isolation, Timeout 지원
 - **Spring Boot 3.x & 4.0 멀티버전 지원**
-- JitPack을 통한 배포
 
 🔗 [hibernate-reactive-coroutines on GitHub](https://github.com/clroot/hibernate-reactive-coroutines)
 
