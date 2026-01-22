@@ -50,12 +50,13 @@ Spring Data JPA 스타일을 Hibernate Reactive + Kotlin Coroutines 환경에서
 ### 📊 Kotlin Excel DSL
 **개인 프로젝트 (오픈소스 라이브러리)**
 
-Kotlin DSL로 Excel 파일을 타입 안전하고 직관적으로 생성할 수 있게 해주는 라이브러리입니다.
+Kotlin DSL로 Excel 파일을 타입 안전하고 직관적으로 생성하고 파싱할 수 있게 해주는 라이브러리입니다.
 
 - **Hybrid API**: 단순한 케이스는 어노테이션(`@Column`)으로, 복잡한 케이스는 DSL(`excel { }`)로 처리
-- **CSS-like Styling**: 컬럼 단위 스타일링과 사전 정의된 테마(Modern, Minimal, Classic) 지원
-- **Header Groups**: 다중 행 헤더와 자동 셀 병합 지원
-- **SXSSF 스트리밍**: 대용량 데이터 렌더링 시 메모리 효율적 처리
+- **양방향 지원**: 동일한 어노테이션으로 Excel 생성과 파싱 모두 가능
+- **어노테이션 스타일링**: `@HeaderStyle`, `@BodyStyle`로 선언적 스타일 정의, `@ConditionalStyle`로 값 기반 동적 스타일 적용
+- **유연한 파싱**: 헤더 별칭, 대소문자 무시, 커스텀 타입 변환기, 행/전체 검증 지원
+- **CSS-like Styling**: 컬럼 단위 스타일링, HEX 색상 지원, 사전 정의된 테마(Modern, Minimal, Classic)
 
 🔗 [kotlin-excel-dsl on GitHub](https://github.com/clroot/kotlin-excel-dsl)
 
@@ -114,5 +115,3 @@ Kotlin DSL로 Excel 파일을 타입 안전하고 직관적으로 생성할 수 
 <p align="center">
   <em>계속 성장하는 개발자를 목표로 합니다.</em>
 </p>
-
-[![Solved.ac 프로필](http://mazassumnida.wtf/api/generate_badge?boj=abcdkh1209)](https://solved.ac/abcdkh1209)
