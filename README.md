@@ -71,14 +71,15 @@ if (context.isAdmin) {
 ---
 
 ### ⚡ slimg
-**사이드 프로젝트 (오픈소스 CLI 도구)**
+**사이드 프로젝트 (오픈소스 이미지 최적화 라이브러리)**
 
-이미지 최적화에 Google Squoosh를 즐겨 썼지만, CLI가 Node.js 업데이트 이후 깨진 채로 유지보수가 중단되었습니다. 매번 웹을 거치는 게 번거로워서, 터미널에서 변환·압축·리사이즈까지 한 번에 해결하는 도구를 직접 만들었습니다.
+이미지 최적화에 Google Squoosh를 즐겨 썼지만, CLI가 Node.js 업데이트 이후 깨진 채로 유지보수가 중단되었습니다. 터미널에서 변환·압축·리사이즈까지 한 번에 해결하는 도구로 시작해, Kotlin/JVM과 Python에서도 네이티브 성능 그대로 쓸 수 있는 멀티플랫폼 라이브러리로 확장했습니다.
 
-- MozJPEG, OxiPNG, ravif 등 고성능 코덱을 활용한 최적 압축
-- 변환(`convert`), 최적화(`optimize`), 리사이즈(`resize`) — 하나의 바이너리로 통합
-- 배치 처리 + 병렬 실행(`--jobs`) — 대량 이미지도 빠르게 처리
-- 라이브러리 크레이트(`slimg-core`) 분리 — CLI 외에도 프로그래밍 방식으로 활용 가능
+- MozJPEG, OxiPNG, ravif 등 고성능 코덱 기반 — JPEG, PNG, WebP, AVIF, QOI 지원
+- CLI(`convert`, `optimize`, `resize`, `crop`, `extend`) — 배치 처리 + 병렬 실행
+- **Kotlin/JVM 바인딩** — UniFFI + JNA 기반, fluent API(`SlimgImage`) 제공, Maven Central 배포
+- **Python 바인딩** — maturin 기반 네이티브 휠, PyPI 배포
+- macOS(Apple Silicon/Intel), Linux(x86_64/ARM64), Windows(x86_64) 크로스플랫폼
 
 🔗 [slimg on GitHub](https://github.com/clroot/slimg)
 
