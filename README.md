@@ -70,6 +70,20 @@ if (context.isAdmin) {
 
 ---
 
+### ⚡ slimg
+**사이드 프로젝트 (오픈소스 CLI 도구)**
+
+이미지 최적화에 Google Squoosh를 즐겨 썼지만, CLI가 Node.js 업데이트 이후 깨진 채로 유지보수가 중단되었습니다. 매번 웹을 거치는 게 번거로워서, 터미널에서 변환·압축·리사이즈까지 한 번에 해결하는 도구를 직접 만들었습니다.
+
+- MozJPEG, OxiPNG, ravif 등 고성능 코덱을 활용한 최적 압축
+- 변환(`convert`), 최적화(`optimize`), 리사이즈(`resize`) — 하나의 바이너리로 통합
+- 배치 처리 + 병렬 실행(`--jobs`) — 대량 이미지도 빠르게 처리
+- 라이브러리 크레이트(`slimg-core`) 분리 — CLI 외에도 프로그래밍 방식으로 활용 가능
+
+🔗 [slimg on GitHub](https://github.com/clroot/slimg)
+
+---
+
 ### 🧱 Internal SDK (Private)
 **B2B 교육/장학 서비스용 사내 공통 SDK**
 
