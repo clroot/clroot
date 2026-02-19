@@ -32,6 +32,21 @@
 
 ## 📌 Highlight Projects
 
+### ⚡ slimg
+**사이드 프로젝트 (오픈소스 이미지 최적화 라이브러리)**
+
+이미지 최적화에 Google Squoosh를 즐겨 썼지만, CLI가 Node.js 업데이트 이후 깨진 채로 유지보수가 중단되었습니다. 터미널에서 변환·압축·리사이즈까지 한 번에 해결하는 도구로 시작해, Kotlin/JVM과 Python에서도 네이티브 성능 그대로 쓸 수 있는 멀티플랫폼 라이브러리로 확장했습니다.
+
+- MozJPEG, OxiPNG, ravif 등 고성능 코덱 기반 — JPEG, PNG, WebP, AVIF, QOI 지원
+- CLI(`convert`, `optimize`, `resize`, `crop`, `extend`) — 배치 처리 + 병렬 실행
+- **Kotlin/JVM 바인딩** — UniFFI + JNA 기반, fluent API(`SlimgImage`) 제공, Maven Central 배포
+- **Python 바인딩** — maturin 기반 네이티브 휠, PyPI 배포
+- macOS(Apple Silicon/Intel), Linux(x86_64/ARM64), Windows(x86_64) 크로스플랫폼
+
+🔗 [slimg on GitHub](https://github.com/clroot/slimg)
+
+---
+
 ### 📦 Hibernate Reactive Coroutines
 **개인 프로젝트 (오픈소스 라이브러리)**
 
@@ -67,21 +82,6 @@ if (context.isAdmin) {
 - 선언적 스타일링 — `@HeaderStyle`, `@ConditionalStyle`, HEX 색상, 사전 정의 테마
 
 🔗 [kotlin-excel-dsl on GitHub](https://github.com/clroot/kotlin-excel-dsl)
-
----
-
-### ⚡ slimg
-**사이드 프로젝트 (오픈소스 이미지 최적화 라이브러리)**
-
-이미지 최적화에 Google Squoosh를 즐겨 썼지만, CLI가 Node.js 업데이트 이후 깨진 채로 유지보수가 중단되었습니다. 터미널에서 변환·압축·리사이즈까지 한 번에 해결하는 도구로 시작해, Kotlin/JVM과 Python에서도 네이티브 성능 그대로 쓸 수 있는 멀티플랫폼 라이브러리로 확장했습니다.
-
-- MozJPEG, OxiPNG, ravif 등 고성능 코덱 기반 — JPEG, PNG, WebP, AVIF, QOI 지원
-- CLI(`convert`, `optimize`, `resize`, `crop`, `extend`) — 배치 처리 + 병렬 실행
-- **Kotlin/JVM 바인딩** — UniFFI + JNA 기반, fluent API(`SlimgImage`) 제공, Maven Central 배포
-- **Python 바인딩** — maturin 기반 네이티브 휠, PyPI 배포
-- macOS(Apple Silicon/Intel), Linux(x86_64/ARM64), Windows(x86_64) 크로스플랫폼
-
-🔗 [slimg on GitHub](https://github.com/clroot/slimg)
 
 ---
 
