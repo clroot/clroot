@@ -47,6 +47,21 @@
 
 ---
 
+### 🗄 Snaplake
+**사이드 프로젝트 (셀프 호스팅 DB 스냅샷 관리 플랫폼)**
+
+"지난달 말에 이 데이터가 어떻게 되어 있었어?" — 운영 중에 이런 질문을 받을 때마다 pg_dump를 복원해서 확인하는 과정이 번거로웠습니다. DB 테이블을 주기적으로 Parquet 파일로 스냅샷하고, 백업 복원 없이 DuckDB로 바로 SQL 조회할 수 있는 셀프 호스팅 도구를 직접 만들었습니다.
+
+- PostgreSQL, MySQL 데이터소스에서 테이블 단위 스냅샷을 Apache Parquet로 캡처
+- DuckDB 기반 SQL 쿼리 엔진 — 스냅샷을 복원 없이 즉시 조회·조인·집계
+- 두 스냅샷 간 row-level diff 비교 — 추가·삭제·변경된 행을 색상으로 구분
+- Cron 기반 자동 스냅샷 + 일별/월별 보관 정책으로 스토리지 자동 관리
+- 로컬 파일시스템 또는 S3 호환 스토리지 지원, Docker 한 줄로 배포
+
+🔗 [snaplake.clroot.io](https://snaplake.clroot.io) · [GitHub](https://github.com/clroot/snaplake)
+
+---
+
 ### 📦 Hibernate Reactive Coroutines
 **개인 프로젝트 (오픈소스 라이브러리)**
 
